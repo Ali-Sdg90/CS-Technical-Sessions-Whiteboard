@@ -10,9 +10,14 @@ body {
     background: #222;
     color: white;
     font-family: sans-serif;
-    display: flex;
+    /* display: flex;
     flex-flow: row nowrap;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     font-size: 30px;
+}
+
+.btns {
+    display: flex;
+    flex-flow: row nowrap;
 }
