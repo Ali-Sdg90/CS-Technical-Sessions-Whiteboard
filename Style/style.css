@@ -1,4 +1,4 @@
-* {
+/* * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -15,4 +15,27 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 30px;
+} */
+
+body{
+    height: 200vh;
+}
+
+.container{
+    border: 1px solid red;
+    background-color: rgb(141, 141, 255);
+    width: 400px;
+    height: 400px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* position: relative; */
+}
+
+.hi{
+    position: sticky;
+    top: 40px;
+    left: 50px;
 }
