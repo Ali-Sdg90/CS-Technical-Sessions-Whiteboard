@@ -2,6 +2,31 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    color: red;
+}
+
+h1 {
+    color: blue;
+}
+
+.hi {
+    color: green;
+}
+
+#hu {
+    color: purple;
+}
+
+h1#ho {
+    color: aqua;
+}
+
+h1#ho h1#ho h1#ho h1#ho .nav {
+    background-color: green;
+}
+
+.nav {
+    background-color: blue;
 }
 
 body {
@@ -11,8 +36,30 @@ body {
     color: white;
     font-family: sans-serif;
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
     font-size: 30px;
+}
+
+.book {
+    background-color: white;
+}
+
+.book div {
+    border: 2px solid blue;
+    padding: 5px;
+}
+
+.book > div {
+    border: 2px solid rgb(255, 98, 0);
+    margin: 3px;
+}
+
+div .pink {
+    border: 2px solid rgb(255, 0, 217);
+}
+
+div.pink {
+    border: 2px solid rgb(255, 0, 217);
 }
