@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+:root {
+    --hi: rgb(0, 255, 162);
+}
+
 body {
     width: 100%;
     height: 100vh;
@@ -11,8 +15,14 @@ body {
     color: white;
     font-family: sans-serif;
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
     font-size: 30px;
+    color: var(--hi);
+    color: var(--hi);
+    color: var(--hi);
+    color: var(--hi);
+    color: var(--hi);
+    color: var(--hi);
 }
