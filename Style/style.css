@@ -11,7 +11,7 @@ body {
     color: white;
     font-family: sans-serif;
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
     font-size: 30px;
