@@ -25,3 +25,44 @@ hi = hi + 10;
 const rima = document.querySelector("#rima");
 
 rima.textContent = hi;
+
+function sayHi(text) {
+    return "Hi " + text;
+}
+
+// const sayHi = (text) => {
+//     return "Hi " + text;
+// };
+
+console.log(sayHi("Amir"));
+
+let calculator = {
+    add: function (a, b) {
+        return a + b;
+    },
+
+    multiply: function (a, b) {
+        return a * b;
+    },
+};
+
+console.log(calculator.add());
+console.log(calculator.multiply(2, 6)); // 12
+
+var person = {
+    name: "Alice",
+    age: 25,
+    address: {
+        street: "123 Main St",
+        city: "New York",
+    },
+    25: "hi",
+};
+
+const a = "address";
+
+const b = "city";
+
+console.log(person[a][b]);
+
+console.log(person[25]);
