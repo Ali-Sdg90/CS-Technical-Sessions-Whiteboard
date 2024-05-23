@@ -1,4 +1,4 @@
-<h1>CS Technical Sessions Whiteboard</h1>
+<h1>Welcome to the CS Technical Sessions Whiteboard repository!</h1>
 
 <img src="./Assets/Aloha.png" alt="Aloha" />
 
